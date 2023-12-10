@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#textBox {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.draggable {
+    position: absolute;
+    cursor: move;
+}
+
+.buttons{
+    display: flex;
+    margin-bottom: 20px;
+}
